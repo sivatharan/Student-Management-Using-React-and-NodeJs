@@ -47,7 +47,8 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
 >  go to the client directory `cd client`<br>
 > `npm install` Install dependency.<br>
 > `npm start `
-
+### Images
+![alt text](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/images/q1.PNG?raw=true)
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let me know](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/issues) or [contribute some!](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/README.md)
