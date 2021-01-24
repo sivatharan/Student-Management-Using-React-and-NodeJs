@@ -61,7 +61,7 @@ exports.filterStudentResultWithStudentId = function (req, res, next) {
 					// temYear[yearIndex]["marks"].push({mark:result[i].mark,subject:result[i].subject});
 				}else{
 					temYear.push(result[i].calenderYear)
-					temMarks.push([getRandomInt(0.0,0.1)+yearIndexTem,result[i].mark]);
+					temMarks.push([getRandomInt(-0.1,0.1)+yearIndexTem,result[i].mark]);
 					// temYear.push({year:result[i].calenderYear,marks:[[getRandomInt(0.0,0.1)+yearIndexTem,result[i].mark]]})
 					yearIndexTem++;
 					// temYear.push({year:result[i].calenderYear,marks:[{mark:result[i].mark,subject:result[i].subject}]})

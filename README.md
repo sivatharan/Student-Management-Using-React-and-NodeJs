@@ -26,12 +26,12 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
 ### Technologies​
 - Frontend : ReactJS and highcharts chart library
 - Backend Service: Node JS - Express
-- Database: MongoDB, to check about mongodb [Mongodb doc ](https://docs.mongodb.com/manual/) also.
+- Database: MongoDB, to check about mongodb [Mongodb doc ](https://docs.mongodb.com/manual/).
 ```
   const db = client.db("DataGenerationDB");
   db.collection("student").insertMany(data, function (err, res) {})
 ```
-- Read more about [Highcharts] (https://www.highcharts.com/)
+- Read more about [Highcharts](https://www.highcharts.com/)
 ### Getting statrt Mongodb
 
 - Start work with mongodb check the [Instalation](https://docs.mongodb.com/manual/installation/)

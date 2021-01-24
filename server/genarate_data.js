@@ -2,8 +2,8 @@
 var MongoClient = require("mongodb").MongoClient;
 var url = "mongodb://localhost:27017";
 let dbase;
-let initialSub = 999;
-let totalSub = 1000;
+let initialSub = 24999;
+let totalSub = 25000;
 MongoClient.connect(url, function (err, db) {
 
     if (err) throw err;
@@ -49,7 +49,7 @@ function insertData(client,stdArray) {
         console.log('-----------All the record are inserted successfully--------------');
     }
     if (stdArray.length > 0) {
-        const db = client.db("DataGenerationDB");
+        const db = client.db("studentAnalysisDB");
         var tempArray = stdArray.slice(0, 100000);
         db.collection("student").insertMany(tempArray, function (err, res) {
             if (err) throw err;

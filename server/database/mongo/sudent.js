@@ -2,7 +2,7 @@
 // var connect = require("./connection");
 var MongoClient = require("mongodb").MongoClient;
 var url = "mongodb://localhost:27017";
-let dbName = "DataGenerationDB";
+let dbName = "studentAnalysisDB";
 
 exports.filterStudentResultWithSubjectAndYear = function (obj, cb) {
   MongoClient.connect(url, function (err, client) {
