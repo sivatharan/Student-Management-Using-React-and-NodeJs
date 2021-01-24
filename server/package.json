@@ -1,0 +1,20 @@
+{
+  "name": "tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "express": "4.15.2",
+    "express-useragent": "^1.0.12",
+    "express-validator": "3.2.0",
+    "mongodb": "^3.6.3"
+  },
+  "author": "ceybit",
+  "license": "ISC"
+}
