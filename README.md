@@ -26,20 +26,20 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
 ### Technologies​
 - Frontend : ReactJS and highcharts chart library
 - Backend Service: Node JS - Express
-- Database: MongoDB, to check about mongodb [Mongodb doc ]https://docs.mongodb.com/manual/) also.
+- Database: MongoDB, to check about mongodb [Mongodb doc ](https://docs.mongodb.com/manual/) also.
 ```
   const db = client.db("DataGenerationDB");
   db.collection("student").insertMany(data, function (err, res) {})
 ```
 ### Getting statrt Mongodb
 
-- Start wotk with mongodb [Instalation](https://docs.mongodb.com/manual/installation/)
+- Start work with mongodb check the [Instalation](https://docs.mongodb.com/manual/installation/)
 
 ### Install dependency and start server(node project/backend)
 > `npm install nodemon -g`  Install [nodemon](https://www.npmjs.com/package/nodemon) globaly.<br>
 > go to the server directory `cd server`<br>
 > `npm install` Install dependency.<br>
-> `node genarate_data.js` Genarate <b>10million</b> data <br>
+> `node genarate_data.js` to Genarate <b>10million</b> data <br>
 > `npm start ` start the server
 
 
