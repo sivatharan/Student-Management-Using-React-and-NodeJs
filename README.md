@@ -31,6 +31,7 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
   const db = client.db("DataGenerationDB");
   db.collection("student").insertMany(data, function (err, res) {})
 ```
+- Read more about [Highcharts] (https://www.highcharts.com/)
 ### Getting statrt Mongodb
 
 - Start work with mongodb check the [Instalation](https://docs.mongodb.com/manual/installation/)
@@ -48,8 +49,8 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
 > `npm install` Install dependency.<br>
 > `npm start `
 ### Images
-![alt text](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/images/q1.PNG?raw=true)
-![alt text](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/images/q2.PNG?raw=true)
+![alt text](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/images/q1.PNG)
+![alt text](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/images/q2.PNG)
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let me know](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/issues) or [contribute some!](https://github.com/sivatharan/Student-Management-Using-React-and-NodeJs/blob/master/README.md)
