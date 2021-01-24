@@ -43,6 +43,12 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
 > `node genarate_data.js` to Genarate <b>10million</b> data <br>
 > `npm start ` start the server
 
+## Note
+ > For the third solution please chnages genarate_data.js file following line number 4,5 and remove the data from database and run the `node genarate_data.js` and check the chart 
+ ```
+  let initialSub = 99;
+  let totalSub = 100;
+ ```
 
 ### Install dependency and start client (react project/Frontend)
 >  go to the client directory `cd client`<br>
