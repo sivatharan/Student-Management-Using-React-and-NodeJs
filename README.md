@@ -50,8 +50,8 @@ imagination to achieve this task. X-axis should be Semester with year ( ex: 2018
   let totalSub = 100;
  ```
 
-### Install dependency and start client (react project/Frontend)
->  go to the client directory `cd client`<br>
+### Install dependency and start app (react project/Frontend)
+>  go to the app directory `cd app`<br>
 > `npm install` Install dependency.<br>
 > `npm start `
 ### Images
